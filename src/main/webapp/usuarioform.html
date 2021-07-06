@@ -1,0 +1,40 @@
+<h1>Cadastrando Novo Desenvolvedor</h1>
+
+<form action="addusuario.jsp" method="post">
+	<table>
+		<tr>
+			<td>Nome:</td>
+			<td><input type="text" name="nome" /></td>
+		</tr>
+		<tr>
+			<td>Sexo:</td>
+			<td><input type="radio" name="sexo" value="M" />Masculino <input
+				type="radio" name="sexo" value="F" />Feminino <input type="radio"
+				name="sexo" value="O" />Outros
+		</tr>
+		<tr>
+			<td>Hobby:</td>
+			<td><input name="hobby" type="text" value=""></input></td>
+		</tr>
+		<tr>
+			<td>Cidade:</td>
+			<td><select name="cidade">
+					<option>Maringá</option>
+					<option>Marialva</option>
+					<option>Paiçandu</option>
+					<option>Sarandi</option>
+					<option>Jandaia do Sul</option>
+					<option>Nova Esperança</option>
+					<option>Outros</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Data de Nascimento:</td>
+			<td><input name="datanascimento" type="text" value=""></input></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Adicionar Usuário" />
+		</tr>
+	</table>
+
+</form>
